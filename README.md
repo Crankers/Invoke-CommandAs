@@ -80,8 +80,8 @@ C:\Program Files\WindowsPowerShell\Modules\Invoke-CommandAs
 ## Import Module directly from GitHub:
 ```
 $WebClient = New-Object Net.WebClient
-$WebClient.DownloadString("https://raw.githubusercontent.com/mkellerman/Invoke-CommandAs/master/Invoke-CommandAs/Private/Invoke-ScheduledTask.ps1") | Set-Content -Path ".\Invoke-ScheduledTask.ps1"
-$WebClient.DownloadString("https://raw.githubusercontent.com/mkellerman/Invoke-CommandAs/master/Invoke-CommandAs/Public/Invoke-CommandAs.ps1") | Set-Content -Path ".\Invoke-CommandAs.ps1"
+$WebClient.DownloadString("https://raw.githubusercontent.com/Crankers/Invoke-CommandAs/master/Invoke-CommandAs/Private/Invoke-ScheduledTask.ps1") | Set-Content -Path ".\Invoke-ScheduledTask.ps1"
+$WebClient.DownloadString("https://raw.githubusercontent.com/Crankers/Invoke-CommandAs/master/Invoke-CommandAs/Public/Invoke-CommandAs.ps1") | Set-Content -Path ".\Invoke-CommandAs.ps1"
 Import-Module ".\Invoke-ScheduledTask.ps1"
 Import-Module ".\Invoke-CommandAs.ps1"
 ```
